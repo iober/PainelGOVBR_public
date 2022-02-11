@@ -1,0 +1,50 @@
+{
+  "name": "painelgovbr",
+  "version": "0.0.1",
+  "description": "Ferramenta de apoio para a equipe GOVBR - Passo Fundo",
+  "productName": "Painel GOVBR",
+  "cordovaId": "painelgovbr.app",
+  "capacitorId": "",
+  "author": "Iober Henrique da Cruz <iober.hc@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "basic-ftp": "^4.6.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-throttle-bandwidth": "^1.0.1",
+    "file-saver": "^2.0.5",
+    "formidable": "^1.2.2",
+    "hellojs": "^1.18.8",
+    "jshint": "^2.12.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.18",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "ping-monitor": "^0.6.1",
+    "quasar-app-extension-firebase-messaging": "^0.1.1",
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.1.15",
+    "@quasar/quasar-app-extension-qribbon": "^1.0.0-beta.15",
+    "babel-eslint": "^10.1.0",
+    "devtron": "^1.4.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
